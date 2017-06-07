@@ -12,11 +12,9 @@
     <title>Rodolpho S. Couto</title>
 
     <!-- CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
+    <link href="dist/css/styles-30d540ab88.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
 
     <!-- FavIcon -->
@@ -32,7 +30,7 @@
 
 </head>
 
-<body>
+<body style="visibility: hidden;" onload="js_fouc()">
 
     <header class="header">
         <div class="container">
@@ -51,13 +49,13 @@
                         </div>
                         <div class="hidden-sm hidden-md hidden-lg">
                             <div class="col-xs-4 text-right">
-                                <h3 class="sub-title"><a target="_blank" href="https://github.com/rodolphocouto"><i class="fa fa-github"></i></a></h3>
+                                <h3 class="sub-title"><a href="https://github.com/rodolphocouto"><i class="fa fa-github"></i></a></h3>
                             </div>
                             <div class="col-xs-4 text-center">
-                                <h3 class="sub-title"><a target="_blank" href="https://linkedin.com/in/rodolphocouto"><i class="fa fa-linkedin-square"></i></a></h3>
+                                <h3 class="sub-title"><a href="https://linkedin.com/in/rodolphocouto"><i class="fa fa-linkedin-square"></i></a></h3>
                             </div>
                             <div class="col-xs-4 text-left">
-                                <h3 class="sub-title"><a target="_blank" href="https://medium.com/@rodolpho.couto"><i class="fa fa-medium"></i></a></h3>
+                                <h3 class="sub-title"><a href="https://medium.com/@rodolpho.couto"><i class="fa fa-medium"></i></a></h3>
                             </div>
                         </div>
                     </div>
@@ -81,6 +79,12 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        function js_fouc() {
+            document.body.style.visibility='visible';
+        }
+    </script>
 
 </body>
 
